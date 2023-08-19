@@ -1,0 +1,34 @@
+  152  cd 180823-josue-goya/
+  153  git init
+  154  git branch -M main
+  155  git remote add origin https://github.com/josuegoya/180823-josue-goya.git
+  156  ls
+  157  touch main.js index.html
+  158  git add .
+  159  git status
+  160  git commit -m "add main.js & index.html"
+  161  git push -u origin main
+  162  git branch feature
+  163  git checkout feature
+  164  mkdir Hardware Software SeguridadInformatica
+  165  ls
+  166  cd Hardware/
+  167  touch resumen.txt
+  168  cd ../Software/
+  169  touch resumen.txt
+  170  cd ../SeguridadInformatica/
+  171  touch resumen.txt
+  172  git add .
+  173  git status
+  174  cd ..
+  175  git add .
+  176  git status
+  177  git commit -m "created feature branch"
+  178  git push -u origin feature
+  179  git checkout main
+  180  ls
+  181  mv main.js resumenHardware.txt
+  182  mv index.html resumenSoftware.txt
+  183  ls
+  184  history
+  185  history 34 > comandos.txt
